@@ -41,6 +41,13 @@ sudo ./experimento.sh
 Esse script configurará os componentes necessários para o experimento.
 
 ### 4. Gerando os gráficos do experimento
+
+Copie o arquivo gera.py para dentro da pasta experimento
+
+```bash
+sudo cp gera.py experimento/
+```
+
 Agora dentro da pasta experimento/
 
 Execute:
