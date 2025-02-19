@@ -1,6 +1,6 @@
 # TUTORIAL - Configuração e execução do experimento de packet padding utilizando MININET
 
-Este documento descreve o passo a passo para configurar e executar o experimento.
+#### Este documento descreve o passo a passo para configurar e executar o experimento.
 
 ## Requisitos
 - Python 3
@@ -11,7 +11,7 @@ Este documento descreve o passo a passo para configurar e executar o experimento
 ## Passo a Passo para Execução
 
 ### 1. Crie um ambiente virtual
-Para garantir um ambiente isolado e evitar conflitos com outras dependências, siga os passos abaixo para criar um ambiente virtual em Python:
+## Para garantir um ambiente isolado e evitar conflitos com outras dependências, siga os passos abaixo para criar um ambiente virtual em Python:
 
 ```bash
 # Crie o ambiente virtual
@@ -32,25 +32,25 @@ sudo apt-get install mininet
 ```
 
 ### 3. Execute o script para criar o ambiente de testes
-O script `experimento.sh` automatiza a criação do ambiente de testes. Para executá-lo, utilize o seguinte comando:
+## O script `experimento.sh` automatiza a criação do ambiente de testes. Para executá-lo, utilize o seguinte comando:
 
 ```bash
 sudo ./experimento.sh
 ```
 
-Esse script configurará os componentes necessários para o experimento.
+#### Esse script configurará os componentes necessários para o experimento.
 
 ### 4. Gerando os gráficos do experimento
 
-Copie o arquivo gera.py para dentro da pasta experimento
+#### Copie o arquivo gera.py para dentro da pasta experimento
 
 ```bash
 sudo cp gera.py experimento/
 ```
 
-Agora dentro da pasta experimento/
+#### Agora dentro da pasta experimento/
 
-Execute:
+#### Execute:
 ```bash
 python3 gera.py
 ```
